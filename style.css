@@ -1,0 +1,32 @@
+.profile-card {
+  color: #343;
+  max-height: 200px;
+  min-height: 100px;
+
+  max-width: 400px;
+  min-width: 250px;
+
+  padding: 10px;
+  margin: 20px;
+}
+.profile-card > p {
+  font-size: 16px;
+}
+
+.profile-card > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-card > h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.profile-card > a {
+  color: green;
+  text-decoration: none;
+}
